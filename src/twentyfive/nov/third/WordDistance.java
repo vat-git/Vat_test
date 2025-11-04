@@ -1,4 +1,4 @@
-package twentyfive.nov;
+package twentyfive.nov.third;
 
 public class WordDistance {
 

@@ -1,6 +1,4 @@
-package twentyfive.nov;
-
-import java.util.Stack;
+package twentyfive.nov.third;
 
 public class MinIslands {
 
@@ -36,8 +34,6 @@ public class MinIslands {
             for (int[] direction : directions) {
                 int x = i + direction[0];
                 int y = j + direction[1];
-
-
                 dfs(x, y, isVisited, grid, directions);
 
             }
